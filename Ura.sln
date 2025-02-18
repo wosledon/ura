@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BE97E543-5BFF-4D72-A239-50386C5614FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ura.Core", "src\Ura.Core\Ura.Core.csproj", "{8DA6064B-79C2-47C4-8761-ACE39C5FFB1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{729D6CD5-46AF-4307-B79C-03DAD9A01585}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{824F14EC-7EE3-4F72-9016-58FB4A7D99EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +18,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DA6064B-79C2-47C4-8761-ACE39C5FFB1D} = {BE97E543-5BFF-4D72-A239-50386C5614FA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DA6064B-79C2-47C4-8761-ACE39C5FFB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA6064B-79C2-47C4-8761-ACE39C5FFB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA6064B-79C2-47C4-8761-ACE39C5FFB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA6064B-79C2-47C4-8761-ACE39C5FFB1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
